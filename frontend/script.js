@@ -666,3 +666,33 @@ if (searchFilter) {
 }
 
 fetchData();
+// Mobile Filter Toggle
+const mobileFilterToggle = document.getElementById('mobile-filter-toggle');
+const filterRow = document.querySelector('.filter-row');
+
+if (mobileFilterToggle) {
+    mobileFilterToggle.addEventListener('click', () => {
+        filterRow.classList.toggle('visible');
+        mobileFilterToggle.textContent = filterRow.classList.contains('visible') ? 'Hide Filters' : 'Filters';
+    });
+}
+
+// Hide Header on Scroll (Mobile)
+let lastScrollTop = 0;
+const header = document.querySelector('header');
+const scrollThreshold = 50; // Minimum scroll amount before hiding
+
+window.addEventListener('scroll', () => {
+    if (window.innerWidth > 768) return; // Only for mobile
+
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
+        // Scrolling down
+        header.classList.add('header-hidden');
+    } else {
+        // Scrolling up
+        header.classList.remove('header-hidden');
+    }
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+});

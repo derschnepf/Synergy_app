@@ -246,6 +246,10 @@ h1 {
     display: none !important;
 }
 
+.mobile-only {
+    display: none;
+}
+
 /* Gallery Grid */
 .movie-gallery {
     display: grid;
@@ -734,6 +738,11 @@ h1 {
     header {
         padding: 16px;
         margin-bottom: 20px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    header.header-hidden {
+        transform: translateY(-100%);
     }
 
     .header-top {
@@ -778,6 +787,23 @@ h1 {
         flex-direction: column;
         align-items: stretch;
         gap: 16px;
+        display: none;
+        /* Hidden by default on mobile */
+    }
+
+    .filter-row.visible {
+        display: flex;
+    }
+
+    .mobile-only {
+        display: block;
+        /* Show on mobile */
+    }
+
+    #mobile-filter-toggle {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
     }
 
     .filter-group {
