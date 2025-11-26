@@ -1,0 +1,277 @@
+[
+    {
+        "id": 1764061376747,
+        "title": "GoT S2",
+        "image": "https://static01.nyt.com/images/2017/07/04/arts/television/GOTs2-joffrey/GOTs2-joffrey-superJumbo.jpg",
+        "ratingDavid": 9,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Fantasy"
+        ],
+        "releaseYear": "10er",
+        "createdDate": "November 25, 2025",
+        "type": "Serie",
+        "imagePosition": "50.0% 40.8%"
+    },
+    {
+        "id": 1764059086933,
+        "title": "GoT S1",
+        "image": "https://m.media-amazon.com/images/S/pv-target-images/2f45f72798190c389bca47f6d0b034b3c56df54d49cf2ce065816d065f874923._BR-6_AC_SX720_FMjpg_.jpg",
+        "ratingDavid": 8,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "releaseYear": "10er",
+        "createdDate": "November 25, 2025",
+        "type": "Serie",
+        "imagePosition": "50.0% 27.6%"
+    },
+    {
+        "id": 1763767494490,
+        "title": "Soul Eater",
+        "image": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GYX0ZW80R-backdrop_wide",
+        "ratingDavid": 0,
+        "ratingLena": 10,
+        "seen": false,
+        "genres": [
+            "Action"
+        ],
+        "releaseYear": "",
+        "createdDate": "November 22, 2025",
+        "type": "Anime",
+        "imagePosition": "center"
+    },
+    {
+        "id": 1,
+        "title": "Sherlock Holmes: Game of shadows",
+        "image": "https://resizing.flixster.com/GZl3U9J_yzSpEl3TZieeFHRrMvo=/620x336/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8418474_i_h10_ac.jpg",
+        "ratingDavid": 10,
+        "ratingLena": 0,
+        "seen": true,
+        "genres": [
+            "Action",
+            "Krimi"
+        ],
+        "releaseYear": "",
+        "createdDate": "January 9, 2024",
+        "type": "Film",
+        "imagePosition": "47.7% 0.0%"
+    },
+    {
+        "id": 1764062106133,
+        "title": "GoT S3",
+        "image": "https://m.media-amazon.com/images/S/pv-target-images/56ed73deff21585d94ebdf23c40252a3218c86f9dfdfeb8ea71b7b3eaf97a269._BR-6_AC_SX720_FMjpg_.jpg",
+        "ratingDavid": 8,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "releaseYear": "10er",
+        "createdDate": "November 25, 2025",
+        "type": "Serie",
+        "imagePosition": "50.1% 23.6%"
+    },
+    {
+        "id": 1764064947721,
+        "title": "GoT S4",
+        "image": "https://m.media-amazon.com/images/S/pv-target-images/99cd0161cc9e0edcbdb2ad85498392631309baa9c2dfb78be3843d4d2b805051._BR-6_AC_SX720_FMjpg_.jpg",
+        "ratingDavid": 9,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "releaseYear": "10er",
+        "createdDate": "November 25, 2025",
+        "type": "Serie",
+        "imagePosition": "50.0% 11.6%"
+    },
+    {
+        "id": 1764065006603,
+        "title": "GoT S5",
+        "image": "https://sm.ign.com/t/ign_de/video/h/heres-a-co/heres-a-complete-game-of-thrones-season-5-recap-in-5-minutes_v6sv.1200.jpg",
+        "ratingDavid": 7,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "releaseYear": "10er",
+        "createdDate": "November 25, 2025",
+        "type": "Serie",
+        "imagePosition": "49.7% 9.2%"
+    },
+    {
+        "id": 1764065079053,
+        "title": "GoT S6",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjJjYWMyODEtMmNlNi00MWJiLTg0NWYtMmE5MzEzNjI4YWNmXkEyXkFqcGc@._V1_.jpg",
+        "ratingDavid": 10,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "releaseYear": "10er",
+        "createdDate": "November 25, 2025",
+        "type": "Serie",
+        "imagePosition": "49.9% 18.4%"
+    },
+    {
+        "id": 1764065141821,
+        "title": "GoT S7",
+        "image": "https://m.media-amazon.com/images/S/pv-target-images/b732d1957bf3f62b1b61919c346e9abbf69d4ffe65113e920146457f303d6359._BR-6_AC_SX720_FMjpg_.jpg",
+        "ratingDavid": 9,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "releaseYear": "10er",
+        "createdDate": "November 25, 2025",
+        "type": "Serie",
+        "imagePosition": "48.7% 14.4%"
+    },
+    {
+        "id": 1764065188454,
+        "title": "GoT S8",
+        "image": "https://lightbox-prod.imgix.net/images/uploads/1594167885441-16x9_1920x1080_web-hotspot_lowres.jpg",
+        "ratingDavid": 4,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "releaseYear": "10er",
+        "createdDate": "November 25, 2025",
+        "type": "Serie",
+        "imagePosition": "49.6% 14.4%"
+    },
+    {
+        "id": 1764065298155,
+        "title": "Solo Leveling",
+        "image": "https://img.joyn.de/ing/originals/t-005/i_gs2xom7llxyb_heroLandscape.jpg/profile:nextgen-web-herolandscape-1920x",
+        "ratingDavid": 7,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Action"
+        ],
+        "releaseYear": "20er",
+        "createdDate": "November 25, 2025",
+        "type": "Anime",
+        "imagePosition": "50.0% 13.2%"
+    },
+    {
+        "id": 1764074253773,
+        "title": "AoT",
+        "image": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GR751KNZY-backdrop_wide",
+        "ratingDavid": 10,
+        "ratingLena": 10,
+        "seen": true,
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "releaseYear": "20er",
+        "createdDate": "November 25, 2025",
+        "type": "Anime",
+        "imagePosition": "49.9% 30.8%"
+    },
+    {
+        "id": 1764076068716,
+        "title": "BttF 1",
+        "image": "https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSbek_H6ReV5ZdMmgO8lqFQailFNSAoixmUvS1cYLKYpAJtCuggqNNHfWCfU7fOJuWkEmkFsC24cDSfsza_kmW_k30J4hQj5xR4T.jpg?r=99d",
+        "ratingDavid": 8,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Sci-Fi"
+        ],
+        "releaseYear": "80er",
+        "createdDate": "November 25, 2025",
+        "type": "Film",
+        "imagePosition": "50.0% 52.0%"
+    },
+    {
+        "id": 1764076136818,
+        "title": "BttF 2",
+        "image": "https://m.media-amazon.com/images/S/pv-target-images/d216a331436d137a83ad7fa16b41eff380eead9e80c338e7fe33273378264da3._SX1080_FMjpg_.jpg",
+        "ratingDavid": 9,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Sci-Fi"
+        ],
+        "releaseYear": "80er",
+        "createdDate": "November 25, 2025",
+        "type": "Film",
+        "imagePosition": "49.6% 23.6%"
+    },
+    {
+        "id": 1764076187566,
+        "title": "BttF 3",
+        "image": "https://assets.mubicdn.net/images/film/27952/image-w1280.jpg?1745490952",
+        "ratingDavid": 7,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [
+            "Sci-Fi"
+        ],
+        "releaseYear": "80er",
+        "createdDate": "November 25, 2025",
+        "type": "Film",
+        "imagePosition": "49.9% 40.0%"
+    },
+    {
+        "id": 1764077031221,
+        "title": "JJK S1",
+        "image": "https://a.storyblok.com/f/178900/940x529/fba93273f1/jujutsu-kaisen-season-1.png/m/filters:quality(95)format(webp)",
+        "ratingDavid": 8,
+        "ratingLena": 8,
+        "seen": true,
+        "genres": [
+            "Action"
+        ],
+        "releaseYear": "20er",
+        "createdDate": "November 25, 2025",
+        "type": "Anime",
+        "imagePosition": "49.9% 21.2%"
+    },
+    {
+        "id": 1764150717305,
+        "title": "JJK S2",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/jujustu-kaisen-season-2-episode-17-sukuna-65577ef7be335.jpg?crop=0.8290353390639923xw:1xh;center,top&resize=980:*",
+        "ratingDavid": 10,
+        "ratingLena": 9,
+        "seen": true,
+        "genres": [],
+        "releaseYear": "20er",
+        "createdDate": "November 26, 2025",
+        "type": "Anime",
+        "imagePosition": "50.0% 44.8%"
+    },
+    {
+        "id": 1764150757006,
+        "title": "JJK S3",
+        "image": "https://cdn.mos.cms.futurecdn.net/hXyFNXhKgjunQ4gK9SjiXc.jpg",
+        "ratingDavid": 0,
+        "ratingLena": 0,
+        "seen": false,
+        "genres": [],
+        "releaseYear": "20er",
+        "createdDate": "November 26, 2025",
+        "type": "Anime",
+        "imagePosition": "49.7% 35.6%"
+    }
+]

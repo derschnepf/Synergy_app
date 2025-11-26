@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synergy</title>
+    <link rel="icon" type="image/png" href="synergy_icon_transparent.png?v=4">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for a premium look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo-container">
+                <img src="synergy_icon_transparent.png" alt="Synergy Icon" class="header-logo">
+                <h1>Synergy</h1>
+            </div>
+            <div class="header-top">
+                <div class="app-mode-selector">
+                    <h1 id="app-title" class="dropdown-trigger">Lenas & Davids Movie Vault</h1>
+                    <div id="mode-dropdown" class="mode-dropdown hidden">
+                        <div class="mode-option" data-mode="vault">Lenas & Davids Movie Vault</div>
+                        <div class="mode-option" data-mode="restaurants">Restaurant Guide</div>
+                    </div>
+                </div>
+
+                <div class="category-nav" id="vault-category-nav">
+                    <div class="nav-slider"></div>
+                    <button class="nav-btn active" data-category="Film">Filme</button>
+                    <button class="nav-btn" data-category="Serie">Serien</button>
+                    <button class="nav-btn" data-category="Anime">Animes</button>
+                </div>
+
+                <button id="add-movie-button" class="add-btn">
+                    <span class="plus-icon">+</span>
+                    Add Item
+                </button>
+            </div>
+
+            <div class="filter-row">
+                <!-- Vault Filters -->
+                <div id="vault-filters" class="filter-group">
+                    <input type="text" id="search-filter" class="sort-dropdown text-input-filter"
+                        placeholder="Search Title...">
+                    <div class="genre-filter" id="genre-filter">
+                        <button class="filter-btn active" data-genre="all">All</button>
+                        <!-- Genres will be inserted here by JS -->
+                    </div>
+                    <select id="seen-filter" class="sort-dropdown">
+                        <option value="all">All</option>
+                        <option value="seen">Seen</option>
+                        <option value="unseen">Unseen</option>
+                    </select>
+                </div>
+
+                <!-- Restaurant Filters -->
+                <div id="restaurant-filters" class="filter-group hidden">
+                    <input type="text" id="city-filter" class="sort-dropdown text-input-filter"
+                        placeholder="Filter by City">
+                    <select id="price-filter" class="sort-dropdown">
+                        <option value="all">Any Price</option>
+                        <option value="Low">Low (€)</option>
+                        <option value="Mid">Mid (€€)</option>
+                        <option value="High">High (€€€)</option>
+                    </select>
+                    <select id="visited-filter" class="sort-dropdown">
+                        <option value="all">All</option>
+                        <option value="visited">Visited</option>
+                        <option value="not_visited">Not Visited</option>
+                    </select>
+                </div>
+
+                <select id="sort-filter" class="sort-dropdown">
+                    <option value="default">Default</option>
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                    <option value="rating-desc">Best Rated</option>
+                    <option value="rating-asc">Worst Rated</option>
+                </select>
+            </div>
+        </header>
+
+        <div class="movie-gallery" id="movie-gallery">
+            <!-- Movie/Restaurant cards will be inserted here by JS -->
+        </div>
+    </div>
+
+
+
+    <!-- Movie Details Modal -->
+    <div id="movie-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <div class="modal-image-container">
+                <div class="modal-image" id="modal-image"></div>
+                <span class="close-modal" id="close-modal">&times;</span>
+            </div>
+
+            <div class="modal-body-content">
+                <div class="modal-title-section">
+                    <input type="text" id="modal-title" class="modal-title-input" placeholder="Title">
+                </div>
+
+                <div class="modal-properties">
+                    <!-- Created -->
+                    <div class="property-row">
+                        <span class="property-icon">🕒</span>
+                        <span class="property-label">Created</span>
+                        <span class="property-value text-value" id="modal-created">January 9, 2024</span>
+                    </div>
+
+                    <!-- VAULT FIELDS -->
+                    <div class="vault-field">
+                        <!-- Genre -->
+                        <div class="property-row">
+                            <span class="property-icon">⋮≡</span>
+                            <span class="property-label">Genre</span>
+                            <div id="modal-genres" class="genre-tags">
+                                <!-- Genres populated here -->
+                            </div>
+                        </div>
+
+                        <!-- Year (Decade) -->
+                        <div class="property-row">
+                            <span class="property-icon">📅</span>
+                            <span class="property-label">Erscheinungsjahr</span>
+                            <select id="modal-year" class="property-input badge-select">
+                                <option value="">Select Decade</option>
+                                <option value="70er">70er</option>
+                                <option value="80er">80er</option>
+                                <option value="90er">90er</option>
+                                <option value="00er">00er</option>
+                                <option value="10er">10er</option>
+                                <option value="20er">20er</option>
+                            </select>
+                        </div>
+
+                        <!-- Type -->
+                        <div class="property-row">
+                            <span class="property-icon">📂</span>
+                            <span class="property-label">Type</span>
+                            <select id="modal-type" class="property-input">
+                                <option value="Film">Film</option>
+                                <option value="Serie">Serie</option>
+                                <option value="Anime">Anime</option>
+                            </select>
+                        </div>
+
+                        <!-- Seen -->
+                        <div class="property-row">
+                            <span class="property-icon">✓</span>
+                            <span class="property-label">Seen</span>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" id="modal-seen">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- RESTAURANT FIELDS -->
+                    <div class="restaurant-field hidden">
+                        <!-- City -->
+                        <div class="property-row">
+                            <span class="property-icon">🏙️</span>
+                            <span class="property-label">City</span>
+                            <input type="text" id="modal-city" class="property-input text-input" placeholder="City">
+                        </div>
+
+                        <!-- Cuisine -->
+                        <div class="property-row">
+                            <span class="property-icon">🍽️</span>
+                            <span class="property-label">Cuisine</span>
+                            <input type="text" id="modal-cuisine" class="property-input text-input"
+                                placeholder="e.g. Italian, Sushi">
+                        </div>
+
+                        <!-- Price -->
+                        <div class="property-row">
+                            <span class="property-icon">💰</span>
+                            <span class="property-label">Price</span>
+                            <select id="modal-price" class="property-input badge-select">
+                                <option value="">Select Price</option>
+                                <option value="Low">Low (€)</option>
+                                <option value="Mid">Mid (€€)</option>
+                                <option value="High">High (€€€)</option>
+                            </select>
+                        </div>
+
+                        <!-- Visited -->
+                        <div class="property-row">
+                            <span class="property-icon">✓</span>
+                            <span class="property-label">Visited</span>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" id="modal-visited">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Rating David -->
+                    <div class="property-row">
+                        <span class="property-icon">👨</span>
+                        <span class="property-label">Rating David</span>
+                        <select id="modal-rating-david" class="property-input rating-box">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+
+                    <!-- Rating Lena -->
+                    <div class="property-row">
+                        <span class="property-icon">👩</span>
+                        <span class="property-label">Rating Lena</span>
+                        <select id="modal-rating-lena" class="property-input rating-box">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+
+                    <!-- Total Rating -->
+                    <div class="property-row">
+                        <span class="property-icon">∑</span>
+                        <span class="property-label">Rating</span>
+                        <div class="rating-display">
+                            <span id="modal-total-rating">4.5</span>
+                            <div class="star-rating" id="modal-star-rating"></div>
+                        </div>
+                    </div>
+
+                    <!-- Image URL -->
+                    <div class="property-row">
+                        <span class="property-icon">🖼️</span>
+                        <span class="property-label">Image URL</span>
+                        <input type="text" id="modal-image-url" class="property-input text-input"
+                            placeholder="https://example.com/image.jpg">
+                    </div>
+                </div>
+
+                <div class="modal-actions">
+                    <button id="delete-modal" class="btn-danger hidden"
+                        onclick="handleDeleteClick(event)">Delete</button>
+                    <button id="cancel-modal" class="btn-secondary">Close</button>
+                    <button id="save-modal" class="btn-primary">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=4"></script>
+</body>
+
+</html>

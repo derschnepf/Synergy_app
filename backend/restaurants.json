@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1764067442554,
+        "name": "Kawaru",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/6f/10/15/sitzplatze.jpg?w=900&h=500&s=1",
+        "ratingDavid": 8,
+        "ratingLena": 8,
+        "visited": true,
+        "city": "M\u00fcnchen",
+        "cuisine": [
+            "Japanisch"
+        ],
+        "price": "Mid",
+        "createdDate": "November 25, 2025",
+        "imagePosition": "49.9% 48.0%"
+    },
+    {
+        "id": 1764076878837,
+        "name": "Bodhi",
+        "image": "https://www.veganfreundlich.org/fotos/267.jpg",
+        "ratingDavid": 0,
+        "ratingLena": 0,
+        "visited": false,
+        "city": "M\u00fcnchen",
+        "cuisine": [
+            "Bayrisch"
+        ],
+        "price": "Mid",
+        "createdDate": "November 25, 2025",
+        "imagePosition": "49.9% 58.0%"
+    }
+]

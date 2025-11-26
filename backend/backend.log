@@ -1,0 +1,265 @@
+INFO:     Will watch for changes in these directories: ['/Users/davidschnepf/Documents/Projects/film_app/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [77986] using StatReload
+INFO:     Started server process [78051]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:52368 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52368 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52369 - "GET /script.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52369 - "GET /movies HTTP/1.1" 200 OK
+Deleting movie with ID: 1764072609097
+Initial movies count: 16
+Final movies count: 15
+Movie saved successfully
+INFO:     127.0.0.1:52414 - "DELETE /movies/1764072609097 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52461 - "GET /script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52461 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52496 - "GET /script.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52496 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52498 - "POST /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52498 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52574 - "GET /script.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52574 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52575 - "PUT /movies/777 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52575 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52645 - "GET /script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52645 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52646 - "GET /script.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52646 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52682 - "GET /script.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52682 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52765 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52765 - "GET /script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52765 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52837 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52837 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52838 - "GET /script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52838 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /script.js?v=2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52959 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52959 - "GET /script.js?v=2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52959 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53027 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53027 - "GET /script.js?v=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53027 - "GET /movies HTTP/1.1" 200 OK
+Deleting movie with ID: 1764073303736
+Initial movies count: 16
+Final movies count: 15
+Movie saved successfully
+INFO:     127.0.0.1:53063 - "DELETE /movies/1764073303736 HTTP/1.1" 200 OK
+Deleting movie with ID: 1764067814148
+Initial movies count: 15
+Final movies count: 14
+Movie saved successfully
+INFO:     127.0.0.1:53156 - "DELETE /movies/1764067814148 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53156 - "GET /movies HTTP/1.1" 200 OK
+Deleting movie with ID: 777
+Initial movies count: 14
+Final movies count: 13
+Movie saved successfully
+INFO:     127.0.0.1:53156 - "DELETE /movies/777 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53156 - "GET /movies HTTP/1.1" 200 OK
+Deleting movie with ID: 2
+Initial movies count: 13
+Final movies count: 12
+Movie saved successfully
+INFO:     127.0.0.1:53156 - "DELETE /movies/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53156 - "GET /movies HTTP/1.1" 200 OK
+Deleting movie with ID: 1764065505556
+Initial movies count: 12
+Final movies count: 11
+Movie saved successfully
+INFO:     127.0.0.1:53181 - "DELETE /movies/1764065505556 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53181 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "POST /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53242 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53514 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53514 - "GET /styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53515 - "GET /synergy_icon.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53517 - "GET /script.js?v=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53515 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53521 - "GET /synergy_icon.png HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'remove_bg.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78051]
+INFO:     Started server process [79875]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:53808 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53808 - "GET /synergy_icon_transparent.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53809 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53811 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53811 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53813 - "GET /synergy_icon_transparent.png HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'remove_bg.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [79875]
+INFO:     Started server process [80622]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:53962 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53962 - "GET /styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53963 - "GET /synergy_icon_transparent.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53965 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53962 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /synergy_icon_transparent.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54070 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54068 - "GET /synergy_icon_transparent.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54068 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54070 - "GET /synergy_icon_transparent.png?v=2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54072 - "GET /synergy_icon_transparent.png?v=2 HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'remove_bg.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80622]
+INFO:     Started server process [80846]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:54188 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54188 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54189 - "GET /synergy_icon_transparent.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54191 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54191 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54189 - "GET /synergy_icon_transparent.png?v=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54193 - "GET /synergy_icon_transparent.png?v=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54294 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54296 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54298 - "GET /synergy_icon_transparent.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54294 - "GET /styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54294 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54294 - "GET /synergy_icon_transparent.png?v=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54300 - "GET /synergy_icon_transparent.png?v=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54401 - "POST /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54401 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54436 - "POST /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54436 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54476 - "POST /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54476 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54593 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54594 - "GET /synergy_icon_transparent.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54593 - "GET /script.js?v=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54596 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54593 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /synergy_icon_transparent.png?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54625 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54625 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54625 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54759 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54759 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54762 - "GET /script.js?v=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54760 - "GET /synergy_icon_transparent.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54762 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54766 - "GET /synergy_icon_transparent.png?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54790 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54790 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54790 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54822 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54867 - "POST /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54867 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54939 - "POST /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54939 - "GET /restaurants HTTP/1.1" 200 OK
+Deleting restaurant with ID: 1764076962954
+Initial restaurants count: 3
+Final restaurants count: 2
+Restaurant saved successfully
+INFO:     127.0.0.1:54939 - "DELETE /restaurants/1764076962954 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54939 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54939 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54978 - "POST /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54978 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55015 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55191 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55331 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55331 - "GET /styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55332 - "GET /synergy_icon_transparent.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55334 - "GET /script.js?v=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55334 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55340 - "GET /synergy_icon_transparent.png?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55369 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55369 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55370 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55370 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55398 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55398 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55399 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55399 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55474 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55474 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55477 - "GET /script.js?v=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55475 - "GET /synergy_icon_transparent.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55477 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55532 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55532 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55534 - "GET /script.js?v=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55534 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55576 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55578 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55576 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55576 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55611 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55611 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55612 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55612 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55629 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55629 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55951 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55952 - "GET /script.js?v=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55954 - "GET /synergy_icon_transparent.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55951 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55952 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55980 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55980 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56009 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56009 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56010 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56010 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56053 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56053 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56118 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56129 - "POST /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56129 - "GET /restaurants HTTP/1.1" 200 OK
+Deleting restaurant with ID: 1764079416688
+Initial restaurants count: 3
+Final restaurants count: 2
+Restaurant saved successfully
+INFO:     127.0.0.1:56207 - "DELETE /restaurants/1764079416688 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56207 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56230 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56271 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56271 - "GET /styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56273 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56276 - "GET /synergy_icon_transparent.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56276 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56276 - "GET /synergy_icon_transparent.png?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56358 - "GET /script.js?v=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56357 - "GET /styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56358 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56362 - "GET /synergy_icon_transparent.png?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56392 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56392 - "GET /script.js?v=4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56392 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56392 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56392 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57182 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57201 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57398 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57405 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57445 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57509 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57716 - "PUT /movies/1764065188454 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57716 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57733 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57738 - "GET /movies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57751 - "GET /restaurants HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57755 - "GET /movies HTTP/1.1" 200 OK
